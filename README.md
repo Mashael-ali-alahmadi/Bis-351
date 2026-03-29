@@ -16,3 +16,5 @@ GlowCare Skincare is a website that helps users learn about skincare routines, k
 ## Project Members
 - Mashael Ali Alahmadi
 - Shahad Ali Aljassim
+- Shouq abdullah alhajri
+- Noura Majoun
