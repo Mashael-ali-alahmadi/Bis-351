@@ -10,10 +10,11 @@ Many people want to take care of their skin, but they do not know their skin typ
 GlowCare Skincare is a user-friendly website that helps users understand skincare in a simple way. The website provides skincare tips, guidance about different skin types, and recommendations for suitable skincare routines and products. Users can explore helpful information based on their skin needs, making it easier for them to choose appropriate products and build healthy skincare habits.
 
 ## Technologies Used
-- HTML
-- CSS
+- HTML5
+- CSS3
 - Javascript
 - JSON
+- Local storage
 
 ## Project Members
 - Mashael Ali Alahmadi
