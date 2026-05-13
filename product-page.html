@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - GlowCare</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<div id="header" class="heading"></div>
+ <div class="main-container">
+        <aside class="skin-sidebar">
+        <h3>Skin Types</h3>
+        <nav class="side-nav">
+            <a href="#normal-skin">Normal Skin</a>
+            <a href="#oily-skin">Oily Skin</a>
+            <a href="#dry-skin">Dry Skin</a>
+            <a href="#sensitive-skin">Sensitive Skin</a>
+            <a href="#combination-skin">Combination Skin</a>
+        </nav>
+            <div class="hero-section">
+        <h2>Find Your Perfect Routine</h2>
+                <p>Not sure about your skin type? <a href="skin-Tips.html" class="tip-link">Go to Skin Tips</a></p></div>
+    </aside>
+</div>
+<button id="topBtn">↑</button>
+<div class="products-wrapper">
+
+<section id="normal-skin" class="products-section">
+<h2>Normal Skin Products</h2>
+<div class="products-grid">
+<div class="card">
+<img src="images/normal skin cleanser.jpg" alt="normal skin cleanser">
+<h3>Normal Skin Cleanser</h3>
+<p>Suitable for normal skin</p>
+<p class="price">$20.00</p>
+<div class="stars-container" onclick="openReview(this)" >
+    <p>click here to write a review/see reviews</p>
+        <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+<button onclick="addToCart('Normal Skin Cleanser', 20)">Add to Cart</button>
+</div>
+ <div class="card">
+   <img src="images/CERAVE-MOISTURIZING for normal skin.jpg" alt="normal skin moisturizer">
+   <h3>Normal skin moisturizer</h3>
+    <p>suitable for normal skin</p>
+    <p class="price">$18.00</p>
+    <div class="stars-container" onclick="openReview(this)" >
+        <p>click here to write a review/see reviews</p>
+        <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+   <button onclick="addToCart('Normal skin moisturizer',18)">Add to Cart</button>
+  </div>
+
+   <div class="card">
+     <img src="images/normal skin serum.jpg" alt="normal skin serum">
+     <h3>Normal skin serum</h3>
+    <p>suitable for normal skin</p>
+    <p class="price">$15.00</p>
+       <div class="stars-container" onclick="openReview(this)" >
+           <p>click here to write a review/see reviews</p>
+        <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Normal skin serum',15)">Add to Cart</button>
+  </div>
+                </div>
+</section>
+<section id="oily-skin" class="products-section">
+    <h2>Oily Skin Products</h2>
+    <div class="products-grid">
+   <div class="card">
+       <img src="images/oily skin cleanser.jpg" alt="oily skin cleanser" width="200" height="200">
+       <h3>Oily skin cleanser</h3>
+    <p>suitable for oily skin</p>
+    <p class="price">$20.00</p>
+       <div class="stars-container" onclick="openReview(this)" >
+           <p>click here to write a review/see reviews</p>
+           <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Oily skin cleanser',20)">Add to Cart</button>
+  </div>
+
+     <div class="card">
+         <img src="images/oily skin cream.jpg" alt="oily skin moisturizer">
+         <h3>Oily skin moisturizer</h3>
+    <p>suitable for oily skin</p>
+    <p class="price">$18.00</p>
+        <div class="stars-container" onclick="openReview(this)" >
+            <p>click here to write a review/see reviews</p>
+        <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Oily skin moisturizer',18)">Add to Cart</button>
+  </div>
+
+     <div class="card">
+         <img src="images/oily skin serum.jpg" alt="oily skin serum">
+         <h3>Oily skin serum</h3>
+    <p>suitable for oily skin</p>
+    <p class="price">$15.00</p>
+         <div class="stars-container" onclick="openReview(this)" >
+             <p>click here to write a review/see reviews</p>
+             <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Oily skin serum',15)">Add to Cart</button>
+     </div>
+        </div>
+</section>
+<section id="dry-skin" class="products-section">
+<h2>Dry Skin Products</h2>
+<div class="products-grid">
+   <div class="card">
+       <img src="images/dry skin cleanser.jpg" alt="dry skin cleanser">
+       <h3>Dry skin cleanser</h3>
+    <p>suitable for dry skin</p>
+    <p class="price">$20.00</p>
+       <div class="stars-container" onclick="openReview(this)" >
+           <p>click here to write a review/see reviews</p>
+           <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Dry skin cleanser',20)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+      <img src="images/dry skin cream.jpg" alt="dry skin moisturizer">
+      <h3>Dry skin moisturizer</h3>
+    <p>suitable for dry skin</p>
+    <p class="price">$18.00</p>
+     <div class="stars-container" onclick="openReview(this)" >
+         <p>click here to write a review/see reviews</p>
+         <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Dry skin moisturizer',18)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+          <img src="images/normal skin serum.jpg" alt="oily skin serum">
+       <h3>Dry skin serum</h3>
+    <p>suitable for dry skin</p>
+    <p class="price">$18.00</p>
+         <div class="stars-container" onclick="openReview(this)" >
+             <p>click here to write a review/see reviews</p>
+             <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Dry skin serum',18)">Add to Cart</button>
+  </div>
+</div>
+</section>
+
+<section id="sensitive-skin" class="products-section">
+<h2>Sensitive Skin Products</h2>
+<div class="products-grid">
+  <div class="card">
+      <img src="images/normal skin cleanser.jpg" alt="sensitive skin cleanser">
+      <h3>Sensitive skin cleanser</h3>
+    <p>suitable for sensitive skin</p>
+    <p class="price">$20.00</p>
+     <div class="stars-container" onclick="openReview(this)" >
+         <p>click here to write a review/see reviews</p>
+        <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Sensitive skin cleanser',20)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+      <img src="images/sensitive skin cream.jpg" alt="sensitive skin moisturizer">
+      <h3>Sensitive skin moisturizer</h3>
+    <p>suitable for sensitive skin</p>
+    <p class="price">$16.00</p>
+     <div class="stars-container" onclick="openReview(this)" >
+         <p>click here to write a review/see reviews</p>
+        <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Sensitive skin moisturizer',16)">Add to Cart</button>
+  </div>
+
+ <div class="card">
+     <img src="images/sensitive skin serum.jpg" alt="sensitive skin serum">
+     <h3>Sensitive skin serum</h3>
+    <p>suitable for sensitive skin</p>
+    <p class="price">$13.00</p>
+<div class="stars-container" onclick="openReview(this)" >
+    <p>click here to write a review/see reviews</p>
+    <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+     <button onclick="addToCart('Sensitive skin serum',13)">Add to Cart</button>
+  </div>
+</div>
+</section>
+
+<section id="combination-skin" class="products-section">
+<h2>Combination Skin Products</h2>
+<div class="products-grid">
+    <div class="card">
+      <img src="images/combination skin cleanser.jpg" alt="combination skin cleanser">
+      <h3>Combination skin cleanser</h3>
+    <p>suitable for combination skin</p>
+    <p class="price">$20.00</p>
+<div class="stars-container" onclick="openReview(this)" >
+    <p>click here to write a review/see reviews</p>
+        <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+        <button onclick="addToCart('Combination skin cleanser',20)">Add to Cart</button>
+  </div>
+
+ <div class="card">
+     <img src="images/combination skin moisturizer.jpg" alt="combination skin moisturizer">
+     <h3>Combination skin moisturizer</h3>
+    <p>suitable for combination skin</p>
+    <p class="price">$13.00</p>
+<div class="stars-container" onclick="openReview(this)" >
+    <p>click here to write a review/see reviews</p>
+        <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+     <button onclick="addToCart('Combination skin moisturizer',13)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+      <img src="images/combination skin serum.jpg" alt="combination skin serum" length="250" width="250">
+      <h3>Combination skin serum</h3>
+    <p>suitable for combination skin</p>
+    <p class="price">$10.00</p>
+      <div class="stars-container" onclick="openReview(this)" >
+        <p>click here to write a review/see reviews</p>
+          <span class="stars">⭐⭐⭐⭐☆</span>
+        <span class="review-count">(0)</span>
+    </div>
+       <button onclick="addToCart('Combination Skin Serum',10)">Add to Cart</button>
+  </div>
+</div>
+</section>
+</div>
+<!--reviews-->
+<div id="reviewModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeReview()">&times;</span>
+        <h2 id="modalProductName">product name </h2>
+
+        <div class="rating-input">
+            <span>your review:</span>
+            <select id="userRating">
+                <option value="5">(very good)⭐⭐⭐⭐⭐</option>
+                <option value="4">(good)⭐⭐⭐⭐</option>
+                <option value="3">(not bad)⭐⭐⭐</option>
+                <option value="2">(bad)⭐⭐</option>
+                <option value="1">(very bad)⭐ </option>
+            </select>
+        </div>
+
+        <textarea id="userComment" placeholder="write your comment here..."></textarea>
+        <button class="submit-btn" onclick="submitReview()">Submit Review</button>
+
+        <hr>
+        <h3>Comments section</h3>
+        <div id="reviewsList">
+
+            <p style="color: #888;">no comments yet.</p>
+        </div>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/layout_loader.js"></script>
+<script src="js/script-1.js"></script>
+</body>
+</html>
